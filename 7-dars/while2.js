@@ -1,4 +1,4 @@
-let a = 10;
+let a = 19;
 let b = 3;
 
 while(a > b){
