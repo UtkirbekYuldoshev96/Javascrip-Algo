@@ -1,8 +1,8 @@
-let n = 3;
-let k = 1;
+let n = 64;
+let k = 0;
 
-while(n > k){
-      n *= Math.pow(2, k);
+while(n % 2 == 0){
+      n /= 2;
+      k++;
 }
-
-console.log(`${n}`);
+console.log(`${k}`);
